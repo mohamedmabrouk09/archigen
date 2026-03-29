@@ -1,6 +1,0 @@
-com\archigen\generator\BuildFileGenerator.class
-com\archigen\ArchiGenCLI.class
-com\archigen\generator\ProjectGenerator.class
-com\archigen\command\NewCommand.class
-com\archigen\generator\StructureGenerator.class
-com\archigen\generator\FileGenerator.class
