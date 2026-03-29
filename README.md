@@ -14,7 +14,13 @@ Clone the repository and add the `bin/` folder to your system PATH:
 git clone https://github.com/your-username/archigen.git
 ```
 
-**Windows** — add the full path to `bin/` in your Environment Variables → `PATH`.
+**Windows** — run this in PowerShell to add `bin/` to your PATH permanently:
+
+```powershell
+[System.Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\archigen\bin", "User")
+```
+
+Then restart your terminal.
 
 Then verify:
 
