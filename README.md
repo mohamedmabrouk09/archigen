@@ -52,7 +52,7 @@ archigen new <project-name> [options]
 archigen new my-app
 
 # Full example
-archigen new shop -g com.mycompany -a shop -e Order --build-tool gradle -o ./projects
+archigen new shop -g com.mycompany -a shop -e Order --build-tool maven -o ./projects -j 17
 ```
 
 ## Generated Structure
